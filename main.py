@@ -61,5 +61,5 @@ def ListFiles(path):
 if __name__ == "__main__":
     file_id = ''
     destination = ''
-    save_response_content(file_id, destination)
+    download_file_from_google_drive(file_id, destination)
     print('Saved.')
